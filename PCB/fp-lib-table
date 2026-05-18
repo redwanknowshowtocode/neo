@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ScottoKicad") (type "KiCad") (uri "C:/Users/mhpil/Documents/KiCad/Libraries/ScottoKicad.pretty") (options "") (descr ""))
+)
