@@ -1,0 +1,52 @@
+{
+    "manufacturer": "redwan",
+    "keyboard_name": "neo",
+    "maintainer": "redwanknowshowtocode",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "rgblight": true,
+        "encoder": true
+    },
+    "matrix_pins": {
+        "rows": ["GP0", "GP1", "GP2"],
+        "cols": ["GP3", "GP4", "GP5"]
+    },
+    "encoder": {
+        "rotary": [
+            {"pin_a": "GP6", "pin_b": "GP7"},
+            {"pin_a": "GP8", "pin_b": "GP9"}
+        ]
+    },
+    "rgblight": {
+        "led_count": 9,
+        "pin": "GP10",
+        "driver": "ws2812"
+    },
+    "layouts": {
+        "LAYOUT_ortho_3x3": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [1, 0], "x": 0, "y": 1},
+                {"matrix": [1, 1], "x": 1, "y": 1},
+                {"matrix": [1, 2], "x": 2, "y": 1},
+                {"matrix": [2, 0], "x": 0, "y": 2},
+                {"matrix": [2, 1], "x": 1, "y": 2},
+                {"matrix": [2, 2], "x": 2, "y": 2}
+            ]
+        }
+    }
+}
